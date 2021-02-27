@@ -9,6 +9,7 @@
 @import "./components/headers.css";
 @import './components/graph.css';
 @import "./components/suggestions.css";
+@import "./components/modals.css";
 
 @import "tailwindcss/utilities";
 @import './components/preview.css';

@@ -1,0 +1,7 @@
+.modal-button-container {
+    @apply space-x-1
+}
+
+button.mod-cta {
+    @apply p-1
+}
