@@ -8,6 +8,7 @@
 @import "./components/splits.css";
 @import "./components/headers.css";
 @import './components/graph.css';
+@import "./components/suggestions.css";
 
 @import "tailwindcss/utilities";
 @import './components/preview.css';

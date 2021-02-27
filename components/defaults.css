@@ -37,7 +37,7 @@ body {
     --text-normal: rgb(var(--bg-gray-700));
     --text-muted: rgb(var(--bg-gray-600));
     --text-muted-rgb: var(--bg-gray-600);
-    --text-faint: rgb(var(--bg-gray-300));
+    --text-faint: rgb(var(--bg-gray-400));
     --text-error: #800000;
     --text-error-hover: #990000;
     --text-highlight-bg: rgba(var(--bg-amber-200), 0.3);

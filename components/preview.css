@@ -1,3 +1,4 @@
+/* Spacing of 6 between each content in preview  */
 .markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
     @apply space-y-6
 }

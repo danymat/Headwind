@@ -1,0 +1,3 @@
+.suggestion-item.is-selected {
+    background-color: rgb(var(--bg-gray-300));
+}
