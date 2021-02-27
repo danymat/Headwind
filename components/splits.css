@@ -5,3 +5,7 @@
 .workspace-split.mod-left-split > .workspace-leaf-resize-handle, .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
     @apply w-0.5
 }
+
+.nav-action-button.is-active {
+    @apply p-1
+}

@@ -13,3 +13,11 @@
 .markdown-preview-view .internal-link:hover {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500
 }
+
+.markdown-preview-view hr {
+    @apply h-0.5 mb-6
+}
+
+.markdown-preview-view .heading-collapse-indicator {
+    margin-top: 15px;
+}
