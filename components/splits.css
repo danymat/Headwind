@@ -1,0 +1,7 @@
+.workspace-tabs > * {
+    @apply font-extralight
+}
+
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle, .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+    @apply w-0.5
+}

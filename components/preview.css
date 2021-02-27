@@ -1,0 +1,15 @@
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    @apply space-y-6
+}
+
+.cm-s-obsidian .HyperMD-footnote span.cm-hmd-footnote {
+    color: var(--text-accent);
+}
+
+.cm-formatting-link {
+    color: var(--text-normal);
+}
+
+.markdown-preview-view .internal-link:hover {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500
+}

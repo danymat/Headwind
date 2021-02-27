@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+
+
+@import "tailwindcss/components";
+@import "./components/defaults.css";
+
+@import "./components/animations.css";
+@import "./components/splits.css";
+@import "./components/headers.css";
+@import './components/graph.css';
+
+@import "tailwindcss/utilities";
+@import './components/preview.css';
+
+
+

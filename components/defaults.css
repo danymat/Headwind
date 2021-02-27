@@ -1,0 +1,61 @@
+:root, html {
+    --bg-gray-100: 241, 245, 249;
+    --bg-gray-200: 226, 232, 240;
+    --bg-gray-300: 203, 213, 225;
+    --bg-gray-400: 148, 163, 184;
+    --bg-gray-700: 51, 65, 85;
+    --bg-gray-600: 71, 85, 105;
+
+    --bg-cyan-500: 6, 182, 212;
+    --bg-cyan-600: 8, 145, 178;
+
+    --bg-amber-200: 253, 230, 138;
+
+}
+
+body {
+    @apply font-light;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.theme-light {
+    --background-primary: rgba(var(--bg-gray-100),1);
+    --background-primary-alt: rgba(var(--bg-gray-100),1);
+    --background-secondary: rgba(var(--bg-gray-100),1);
+    --background-secondary-alt: rgba(var(--bg-gray-100),1);
+    --background-modifier-border: rgb(var(--bg-gray-300));
+    --background-modifier-form-field: #fff;
+    --background-modifier-form-field-highlighted: #fff;
+    --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
+    --background-modifier-success: #A4E7C3;
+    --background-modifier-error: #990000;
+    --background-modifier-error-rgb: 230, 135, 135;
+    --background-modifier-error-hover: #bb0000;
+    --background-modifier-cover: rgba(0, 0, 0, 0.8);
+    --text-accent: rgb(var(--bg-cyan-600));
+    --text-accent-hover: rgb(var(--bg-cyan-600));
+    --text-normal: rgb(var(--bg-gray-700));
+    --text-muted: rgb(var(--bg-gray-600));
+    --text-muted-rgb: var(--bg-gray-600);
+    --text-faint: rgb(var(--bg-gray-300));
+    --text-error: #800000;
+    --text-error-hover: #990000;
+    --text-highlight-bg: rgba(var(--bg-amber-200), 0.3);
+    --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
+    --text-selection: rgba(204, 230, 255, 0.99);
+    --text-on-accent: #f2f2f2;
+    --interactive-normal: #f2f3f5;
+    --interactive-hover: #e9e9e9;
+    --interactive-accent: rgba(var(--bg-gray-300), 1);
+    --interactive-accent-rgb: var(--bg-gray-300);
+    --interactive-accent-hover: rgba(var(--bg-gray-300), 1);
+    --interactive-success: #197300;
+    --scrollbar-active-thumb-bg: rgba(0, 0, 0, 0.2);
+    --scrollbar-bg: rgba(var(--bg-gray-200), 0.3);
+    --scrollbar-thumb-bg: rgba(0, 0, 0, 0.1);
+    --highlight-mix-blend-mode: darken;
+  }
+
+
+
+

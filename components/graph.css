@@ -1,0 +1,3 @@
+.theme-light .graph-view.color-fill-tag {
+    @apply text-green-400
+}
