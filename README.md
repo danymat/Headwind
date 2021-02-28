@@ -8,6 +8,12 @@ If you find any value with this theme, please add a star to it !
 
 ## Usage
 
+### Simple Installation
+
+Copy the file `Headwind.css` in `.obsidian/themes` folder, and activate the theme.
+
+### Re-compiling
+
 ```bash
 npm install
 npm run build:css
