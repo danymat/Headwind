@@ -17,6 +17,7 @@ Will generate a `Headwind.css` file that can be copied in `.obsidian/themes` fol
 
 ## Roadmap
 
+- [ ] YAML styling
 - [ ] Support for Dark theme
 
 ## Contributing

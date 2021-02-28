@@ -1,6 +1,6 @@
 /* Spacing of 6 between each content in preview  */
 .markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
-    @apply space-y-6
+    @apply space-y-6;
 }
 
 .cm-s-obsidian .HyperMD-footnote span.cm-hmd-footnote {
@@ -12,13 +12,17 @@
 }
 
 .markdown-preview-view .internal-link:hover {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500;
 }
 
 .markdown-preview-view hr {
-    @apply h-0.5 mb-6
+    @apply h-0.5 mb-6;
 }
 
 .markdown-preview-view .heading-collapse-indicator {
     margin-top: 15px;
+}
+
+.tag {
+    @apply font-extralight text-blue-500;
 }
