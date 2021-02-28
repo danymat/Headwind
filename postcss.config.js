@@ -8,8 +8,8 @@ module.exports = {
       require('postcss-import'),
       require('tailwindcss'),
       require('autoprefixer'),
-      cssnano({
-        preset: 'default'
-      })
+      // cssnano({
+      //   preset: 'default'
+      // })
     ]
 }
