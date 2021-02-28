@@ -678,6 +678,10 @@ button.mod-cta {
   font-weight: 200;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -702,6 +706,10 @@ button.mod-cta {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 * {
@@ -835,6 +843,19 @@ button.mod-cta {
   font-weight: 200;
   --tw-text-opacity: 1;
   color: rgba(59, 130, 246, var(--tw-text-opacity));
+}
+
+.titlebar {
+  background-color: transparent;
+}
+
+.titlebar-text, .titlebar-button {
+  color: var(--text-normal);
+  font-weight: 400
+}
+
+.titlebar-button-container, .titlebar-text {
+  padding-top: 0.25rem
 }
 
 @media (min-width: 640px) {

@@ -1,0 +1,13 @@
+.titlebar {
+    @apply bg-transparent;
+}
+
+.titlebar-text, .titlebar-button {
+    color: var(--text-normal);
+    @apply font-normal
+
+}
+
+.titlebar-button-container, .titlebar-text {
+    @apply pt-1
+}

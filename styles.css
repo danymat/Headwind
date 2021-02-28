@@ -13,6 +13,7 @@
 
 @import "tailwindcss/utilities";
 @import './components/preview.css';
+@import "./components/titlebar.css";
 
 
 
