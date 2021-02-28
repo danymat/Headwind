@@ -590,6 +590,10 @@ body {
   padding: 0.25rem
 }
 
+.workspace-ribbon-collapse-btn {
+  padding: 20px 0px;
+}
+
 .markdown-preview-view h1 {
   -webkit-background-clip: text;
           background-clip: text;

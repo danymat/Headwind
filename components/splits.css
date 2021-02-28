@@ -17,3 +17,7 @@
 .workspace-ribbon.mod-left {
     @apply p-1
 }
+
+.workspace-ribbon-collapse-btn {
+    padding: 20px 0px;
+}
