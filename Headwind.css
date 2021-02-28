@@ -556,7 +556,7 @@ body {
   --text-error-hover: #990000;
   --text-highlight-bg: rgba(var(--bg-amber-200), 0.3);
   --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
-  --text-selection: rgba(204, 230, 255, 0.99);
+  --text-selection: rgba(var(--bg-gray-300), 0.8);
   --text-on-accent: rgb(var(--bg-gray-100));
   --interactive-normal: #f2f3f5;
   --interactive-hover: #e9e9e9;
