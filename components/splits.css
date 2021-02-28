@@ -13,3 +13,7 @@
 .menu-item:hover {
     background-color: rgb(var(--bg-gray-300));
 }
+
+.workspace-ribbon.mod-left {
+    @apply p-1
+}

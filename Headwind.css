@@ -586,6 +586,10 @@ body {
   background-color: rgb(var(--bg-gray-300));
 }
 
+.workspace-ribbon.mod-left {
+  padding: 0.25rem
+}
+
 .markdown-preview-view h1 {
   -webkit-background-clip: text;
           background-clip: text;
