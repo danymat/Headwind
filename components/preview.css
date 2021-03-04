@@ -3,7 +3,8 @@
     @apply space-y-6;
 }
 
-.cm-s-obsidian .HyperMD-footnote span.cm-hmd-footnote {
+/* Change color for footnote and footref */
+.cm-s-obsidian .HyperMD-footnote span.cm-hmd-footnote, .cm-s-obsidian span.cm-footref {
     color: var(--text-accent);
 }
 
@@ -25,4 +26,21 @@
 
 .tag {
     @apply font-extralight text-blue-500;
+}
+
+ol {
+    list-style: inside decimal;
+}
+
+ul {
+    list-style: inside disc;
+}
+
+ol, ul {
+    @apply ml-2;
+}
+
+.footnote-link {
+    color: var(--text-muted);
+    @apply font-thin
 }

@@ -674,6 +674,10 @@ button.mod-cta {
   display: table;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
 .font-extralight {
   font-weight: 200;
 }
@@ -812,7 +816,9 @@ button.mod-cta {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
-.cm-s-obsidian .HyperMD-footnote span.cm-hmd-footnote {
+/* Change color for footnote and footref */
+
+.cm-s-obsidian .HyperMD-footnote span.cm-hmd-footnote, .cm-s-obsidian span.cm-footref {
   color: var(--text-accent);
 }
 
@@ -843,6 +849,23 @@ button.mod-cta {
   font-weight: 200;
   --tw-text-opacity: 1;
   color: rgba(59, 130, 246, var(--tw-text-opacity));
+}
+
+ol {
+  list-style: inside decimal;
+}
+
+ul {
+  list-style: inside disc;
+}
+
+ol, ul {
+  margin-left: 0.5rem;
+}
+
+.footnote-link {
+  color: var(--text-muted);
+  font-weight: 100
 }
 
 .titlebar {
