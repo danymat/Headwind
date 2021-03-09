@@ -21,3 +21,7 @@
 .workspace-ribbon-collapse-btn {
     padding: 20px 0px;
 }
+
+.search-input-clear-button {
+    top: -3px;
+}
